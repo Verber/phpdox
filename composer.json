@@ -1,0 +1,24 @@
+{
+    "name": "theseer/phpdox",
+    "description": "Documentation generator for PHP Code using standard technology",
+    "require": {
+        "php": ">=5.3.2",
+        "ext-dom": "*",
+        "ext-xsl": "*",
+        "ext-iconv": "*"
+    },
+    "bin": [
+        "phpdox.php",
+        "phpdox.bat",
+        "phpdox"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "authors": [
+        {
+            "name": "Arne Blankerts",
+            "email": "arne@blankerts.de"
+        }
+    ]
+}
